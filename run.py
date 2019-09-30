@@ -8,16 +8,20 @@ import subprocess
 import logging
 from flask import Flask
 from threading import Thread
-from queue import Queue
+from queue import Queue, Empty
 from constants import *
 logging.basicConfig(level=logging.ERROR)
 
 sign_queue = Queue()
 app = Flask(__name__)
 
+@app.errorhandler(Empty)
+def error(e):
+    return "暂无sign"
+
 @app.route("/")
 def index():
-    sign = sign_queue.get()
+    sign = sign_queue.get(timeout=2)
     sign_queue.task_done()
     return sign[5:].decode().strip()
 
