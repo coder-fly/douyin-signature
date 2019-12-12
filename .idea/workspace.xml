@@ -4,13 +4,6 @@
     <list default="true" id="2f92a6c7-72f5-4170-abd7-a82c713c770a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub_js.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +31,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <first_editor relative-caret-position="291">
+                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="9" column="133" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="133" />
             </state>
           </provider>
         </entry>
@@ -75,7 +77,6 @@
       <list>
         <option value="$PROJECT_DIR$/utils/mitm.py" />
         <option value="$PROJECT_DIR$/utils/fake.log" />
-        <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/utils/true.log" />
         <option value="$PROJECT_DIR$/utils/demo.py" />
         <option value="$PROJECT_DIR$/utils/sub_js.py" />
@@ -85,13 +86,13 @@
         <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/sub_js.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-212" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="26" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
@@ -122,13 +123,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\2019_SpiderProject\DouyinWeb" />
-      <recent name="E:\2019_SpiderProject\DouyinWeb\utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2019_SpiderProject\DouyinWeb" />
       <recent name="E:\2019_SpiderProject\DouyinWeb\logs" />
+      <recent name="E:\2019_SpiderProject\DouyinWeb\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2019_SpiderProject\DouyinWeb" />
       <recent name="E:\2019_SpiderProject\DouyinWeb\utils" />
     </key>
   </component>
@@ -284,12 +285,12 @@
       <workItem from="1576029289939" duration="597000" />
       <workItem from="1576051746538" duration="1342000" />
       <workItem from="1576115633711" duration="604000" />
-      <workItem from="1576123081589" duration="269000" />
+      <workItem from="1576123081589" duration="1097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27371000" />
+    <option name="totallyTimeSpent" value="28199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,10 +302,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="26" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06145675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22230652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -437,11 +438,18 @@
     <entry file="file://$PROJECT_DIR$/sub_url2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="9" column="133" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <first_editor relative-caret-position="291">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
         </state>
