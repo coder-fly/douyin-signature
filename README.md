@@ -17,5 +17,4 @@
 
 - 代码中已经将ua写死，固定为
 `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36`
-- 获取无水印链接
-`http://49.233.200.77:5001/watermark/6769364429223021837/`
+
