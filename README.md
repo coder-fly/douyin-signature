@@ -1,4 +1,3 @@
-## 使用chromedriver + mitmproxy持续获取抖音网页版signature
 ## douyin signature
 需要注意的是使用signature请求数据时，user-agent必须与获取sign时的user-agent保持一致，sign具有有效期，在有效期内可无限使用
 
