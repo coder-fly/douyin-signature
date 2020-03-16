@@ -100,12 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="13" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
-  </component>
+  <component name="ProjectId" id="1ZC9ZEXq5h72lzGH9666YtXIOuM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -127,7 +122,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -155,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run (1)">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="chrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DouyinWeb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DouyinWeb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,12 +205,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\2019_SpiderProject\DouyinWeb\run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.run (1)" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.constants (1)" />
         <item itemvalue="Python.chrome" />
-        <item itemvalue="Python.demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +338,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/douyin_signature$demo.coverage" NAME="demo Coverage Results" MODIFIED="1584332284150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/virtualenvs/douyin_web/Lib/re.py">
