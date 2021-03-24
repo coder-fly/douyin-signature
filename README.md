@@ -1,21 +1,15 @@
-# 由于网页版抖音大部分时间都不返回数据了，所以此方法已不可用
-## douyin signature
-需要注意的是使用signature请求数据时，user-agent必须与获取sign时的user-agent保持一致，sign具有有效期，在有效期内可无限使用
+# 网页版抖音复活版
 
-## get
-无需获取tac参数，直接get请求访问以下地址(user_id可更换)
-- ~~url:http://49.233.200.77:5001/sign/100000483090/~~
-- response:
+## 说明
+稍微修改了一下代码，并找到了代码中检测node与浏览器差异的部分，现已可以直接使用node运行，欢迎star
 
-    `{
-        "signature": "c0D5KBASLrTCHJP-GCbOh3NA-T",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-    }`
-## post
-自己获取tac并通过Post请求获取signature,详见demo.py
+## 如何运行
+```
+docker run -d -p 7878:7878 --name --rm douyin makkapakka/douyin-web:latest
 
-## other
+# then
+curl http://127.0.0.1:7878
+```
 
-- 代码中已经将ua写死，固定为
-`Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36`
-
+## 版权说明
+仅供交流学习使用，严禁商业用途
