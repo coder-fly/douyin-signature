@@ -3,7 +3,14 @@
 ## 说明
 稍微修改了一下代码，并找到了代码中检测node与浏览器差异的部分，现已可以直接使用node运行，欢迎star
 
-## 如何运行
+## usage
+```
+npm install jsdom@16.5.1 canvas@2.7.0
+
+node douyin.js
+```
+
+## Docker
 ```
 docker run -d -p 7878:7878 --name --rm douyin makkapakka/douyin-web:latest
 
