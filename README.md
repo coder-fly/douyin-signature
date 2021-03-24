@@ -8,6 +8,9 @@
 npm install jsdom@16.5.1 canvas@2.7.0
 
 node douyin.js
+
+# then
+curl http://127.0.0.1:7878
 ```
 
 ## Docker
