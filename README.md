@@ -12,7 +12,7 @@ node douyin.js
 
 ## Docker
 ```
-docker run -d -p 7878:7878 --name --rm douyin makkapakka/douyin-web:latest
+docker run -d -p 7878:7878 --name douyin --rm  makkapakka/douyin-web:latest
 
 # then
 curl http://127.0.0.1:7878
