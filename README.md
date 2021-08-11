@@ -2,7 +2,7 @@
 
 
 ## 说明
-稍微修改了一下代码，并找到了代码中检测node与浏览器差异的部分，现已可以直接使用node运行，欢迎star
+稍微修改了一下代码，并找到了代码中检测node与浏览器差异的部分，现已可以直接使用node运行
 需要网页版抖音的，请移步[网页版某音signature获取,支持搜索、点赞、关注](https://github.com/coder-fly/douyin_web_signature)
 
 ## usage
